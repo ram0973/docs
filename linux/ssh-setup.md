@@ -1,4 +1,4 @@
-### Setup ssh client in Ubuntu 
+## Setup ssh client in Ubuntu 
 
 ```bash
 # Create key if needed or skip and copy your key to ~/.ssh/id_rsa, if existed
@@ -13,6 +13,7 @@ $ source ~/.bashrc
 # Go to github and paste contents of ~/.id_rsa.pub there https://github.com/settings/ssh/new
 
 # Test key on github
+Check out the [](linux/ssh-goodies) section for further information.
 $ ssh -T git@github.com
 
 # Change passphrase if desired: 
