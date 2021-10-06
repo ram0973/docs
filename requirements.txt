@@ -1,0 +1,5 @@
+sphinx
+livereload
+myst-parser
+furo
+sphinx-book-theme
